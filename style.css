@@ -1,0 +1,135 @@
+
+.material-symbols-rounded {
+    font-size: 24px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 250ms ease;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.br {
+    border: 1px solid red;
+}
+
+.al {
+    display: flex;
+    align-items: center;
+}
+.jsc {
+    justify-content: center;
+}
+
+p {
+    color: #ffffff;
+}
+
+.card {
+    /* width: 320px;
+    height: 190px; */
+    
+    width: 85vw;
+    height: 50vw;
+    max-height: 300px;
+   
+    border-radius: 14px;
+    background: url(Adsız.png);
+    background-size: cover;
+    padding: 1rem;
+}
+
+/* .card:hover {
+    box-shadow: 0 0 0.3rem #000000;
+} */
+.inside {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 3rem;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+
+footer {
+    margin-top: auto;
+    height: 2rem;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d8d8d8;
+    box-shadow: 0 0 0.1rem #d8d8d8;
+}
+
+.btn:active, .bar:active {
+    scale: 0.95;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.profile {
+    gap: 0.5rem;
+}
+
+/* media screen */
+/* @media (max-width: 430px) {
+    .card {
+        width: 150px;
+        height: 100px;
+    }
+} */
+
+/* ayrı ----------------------------------------------------- */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+nav {
+    height: 4rem;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+.bar {
+    border: none;
+    outline: none;
+    padding: 0.4rem 0.5rem;
+    border-radius: 14px;
+    background: #f3f2f2;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+#profile {
+    font-size: 4vw;
+}
